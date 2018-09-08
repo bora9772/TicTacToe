@@ -1,0 +1,39 @@
+body{
+  background-color: #EEEEEE;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Pacifico', cursive;
+  color: #6E6E6E;
+}
+
+#top{
+  text-align: center;
+  font-size: 55px;
+  padding-top: 15px;
+}
+
+#picture{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.button{
+  text-align: center;
+  font-size: 36px;
+  margin: 20px;
+  margin-left: 440px;
+  margin-right: 440px;
+}
+
+.button:hover, a.active{
+  color: #73cfe2;
+  transition: .5s;
+}
+
+a:link, a:visited {
+    color: #6E6E6E;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
